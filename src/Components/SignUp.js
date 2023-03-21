@@ -44,7 +44,7 @@ const signUp = (e) => {
                 <input type="text" onChange={(e)=>setEmail(e.target.value)} value={email} name="email" className="form-control" id="username" />
               </div>
               <div className="mb-4 bg-white">
-                <label htmlFor="repeat" className="form-label bg-white">Repetir e-mail</label>
+                <label htmlFor="repeat" className="form-label bg-white">Repetir E-mail</label>
                 <input type="text" onChange={(e)=>setEmail2(e.target.value)} value={email2} name="repeat" className="form-control" id="username" />
               </div>
               <div className="mb-4 bg-white">
